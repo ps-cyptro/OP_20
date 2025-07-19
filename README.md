@@ -98,7 +98,7 @@ After customizing your token's properties, build the contract:
 - Run the following commands:
 
     ```sh
-    npm install
+    npm install 
      npm build run
     ```
 
