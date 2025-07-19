@@ -84,8 +84,8 @@ Open the `OP_20` template repository in your IDE or text editor and navigate to 
 ```typescript
 const maxSupply: u256 = u128.fromString('1000000000000000000000000').toU256(); // Your max supply
 const decimals: u8 = 18; // Your decimals
-const name: string = 'YourTokenName'; // Your token name
-const symbol: string = 'SYM'; // Your token symbol
+const name: string = 'BITCOINZ'; // Your token name
+const symbol: string = 'BTZ'; // Your token symbol
 ```
 
 Modify the values as needed for your token.
@@ -99,7 +99,7 @@ After customizing your token's properties, build the contract:
 
     ```sh
     npm install
-    npm run build
+     npm build
     ```
 
 - After building, a `build` folder will be created in the root of the `OP_20` folder. Look for `[nameoftoken].wasm` for the compiled contract.
