@@ -102,6 +102,7 @@ After customizing your token's properties, build the contract:
      npm build run
     ```
 
+
 - After building, a `build` folder will be created in the root of the `OP_20` folder. Look for `[nameoftoken].wasm` for the compiled contract.
 
 ### 6. Deploy the Token Contract
