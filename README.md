@@ -97,11 +97,12 @@ After customizing your token's properties, build the contract:
 - Open your terminal and navigate to the location of the downloaded `OP_20` template folder.
 - Run the following commands:
 
-    ```sh
+    ```
     npm install 
      npm  build run
 
     ```
+
 
 - After building, a `build` folder will be created in the root of the `OP_20` folder. Look for `[nameoftoken].wasm` for the compiled contract.
 
