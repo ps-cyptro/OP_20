@@ -102,6 +102,7 @@ export class MyToken extends DeployableOP_20 {
         const writer: BytesWriter = new BytesWriter(BOOLEAN_BYTE_LENGTH);
         writer.writeBoolean(true);
 
-        return writer;
+        return writer;npm instill bulid 
+npm run
     }
 }
